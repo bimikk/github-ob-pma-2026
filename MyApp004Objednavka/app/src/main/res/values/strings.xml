@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApp004Objednavka</string>
+    <string name="text_order_summary">Souhrn objednávky:</string>
+    <string name="btn_order">Objednat</string>
+</resources>

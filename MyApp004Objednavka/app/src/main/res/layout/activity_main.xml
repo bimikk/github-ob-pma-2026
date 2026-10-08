@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvOrderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jaké boty chcete objednat?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="16dp"
+            />
+        <RadioGroup
+            android:id="@+id/rgShoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbAdidas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Adidas" />
+
+            <RadioButton
+                android:id="@+id/rbNike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nike" />
+
+            <RadioButton
+                android:id="@+id/rbHoka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hoka" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Přejete si něco přidat navíc?"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbBarvaboty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Černá barva" />
+
+        <CheckBox
+            android:id="@+id/cbTkanicky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Černé tkaničky" />
+
+        <CheckBox
+            android:id="@+id/cbObal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Obal na boty" />
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/btn_order" />
+
+        <!-- Vylepšení: živá cena -->
+        <TextView
+            android:id="@+id/tvOrder"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/text_order_summary"
+            android:background="@color/material_dynamic_neutral90"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/ivShoes"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/pizza_image_desc"
+            android:scaleType="centerInside"
+            android:src="@drawable/adidas_bota" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/summary_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/summary_empty" />
+    </LinearLayout>
+</ScrollView>
