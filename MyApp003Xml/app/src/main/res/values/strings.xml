@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HodKostkouXml-Bim</string>
+    <string name="title">Hoď kostkou</string>
+    <string name="btn_roll">Hodit</string>
+    <string name="dice_desc">Kostka</string>
+    <string name="result_start">Klikni na Hodit a zkus štěstí</string>
+    <string name="result_rolling">Kostka se kutálí…</string>
+    <string name="result_value">Padlo: %1$d</string>
+    <string name="result_six">Šestka! 🎉</string>
+    <string name="stats_title">Statistika hodů</string>
+    <string name="stats_summary">Hodů: %1$d · průměr: %2$s</string>
+    <string name="btn_reset">Vynulovat statistiku</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tmavý režim: světlejší kostka, aby byla vidět -->
+    <color name="dice_normal">#FFCFD8DC</color>
+    <color name="text_muted">#FFB0BEC5</color>
+</resources>
