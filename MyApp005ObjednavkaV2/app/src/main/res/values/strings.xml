@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">MyApp005ObjednavkaV2</string>
+
+    <!-- Hlavní obrazovka -->
+    <string name="title_main">Jaké boty chcete objednat?</string>
+    <string name="shoe_image_desc">Obrázek vybrané boty</string>
+    <string name="model_title">Model</string>
+    <string name="model_adidas">Adidas (2 490 Kč)</string>
+    <string name="model_nike">Nike (2 990 Kč)</string>
+    <string name="model_hoka">Hoka (3 490 Kč)</string>
+    <string name="extras_title">Příplatková výbava</string>
+    <string name="extra_color">Černá barva (+200 Kč)</string>
+    <string name="extra_laces">Černé tkaničky (+90 Kč)</string>
+    <string name="extra_bag">Obal na boty (+250 Kč)</string>
+    <string name="price_total">Celková cena: %1$s Kč</string>
+    <string name="btn_confirm">Pokračovat k rekapitulaci</string>
 </resources>
