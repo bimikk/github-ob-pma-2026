@@ -19,4 +19,11 @@ Repozitář s úkoly z předmětu Programování mobilních aplikací – Ondře
 
 - **Úkol 004:** [MyApp004Objednavka](MyApp004Objednavka) – objednávka bot (Nike, Adidas, Hoka), XML layout (LinearLayout) + View Binding.
   - RadioButtony mění obrázek boty, CheckBoxy upřesňují konfiguraci, tlačítko **Objednat** vypíše souhrn objednávky.
-  - Zadání: https://github.com/zizanek/github-tz-pma-2026/issues/4
+
+## 4. cvičení (15. 10. 2026)
+
+- **Úkol 005:** [MyApp005ObjednavkaV2](MyApp005ObjednavkaV2) – objednávka bot V2 na dvou obrazovkách.
+  - Hlavní obrazovka v `ConstraintLayout`: výběr modelu (RadioGroup), příplatková výbava (CheckBoxy), průběžný přepočet ceny.
+  - Rekapitulace (`SummaryActivity`) ve `ScrollView`: data předaná přes `Intent`, obchodní podmínky, tlačítko **Zpět k úpravě**.
+  - ViewBinding, bez `findViewById`.
+  - **Návazný úkol:** přehled možností trvalého ukládání objednávek v README složky.
