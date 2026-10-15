@@ -1,5 +1,6 @@
 package com.example.myapp005objednavkav2
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -41,7 +42,26 @@ class MainActivity : AppCompatActivity() {
             checkBox.setOnCheckedChangeListener { _, _ -> updatePrice() }
         }
 
+        // Potvrzení -> předání modelu, výbavy a ceny na rekapitulaci přes Intent
+        binding.btnConfirm.setOnClickListener {
+            val intent = Intent(this, SummaryActivity::class.java).apply {
+                putExtra(SummaryActivity.EXTRA_MODEL, selectedModelName())
+                putExtra(SummaryActivity.EXTRA_COLOR, binding.cbColor.isChecked)
+                putExtra(SummaryActivity.EXTRA_LACES, binding.cbLaces.isChecked)
+                putExtra(SummaryActivity.EXTRA_BAG, binding.cbBag.isChecked)
+                putExtra(SummaryActivity.EXTRA_PRICE, totalPrice().toString())
+            }
+            startActivity(intent)
+        }
+
         updatePrice()
+    }
+
+    // Název vybraného modelu pro rekapitulaci
+    private fun selectedModelName(): String = when (binding.rgModel.checkedRadioButtonId) {
+        R.id.rbNike -> "Nike"
+        R.id.rbHoka -> "Hoka"
+        else -> "Adidas"
     }
 
     // Výpočet celkové ceny: základ podle modelu + příplatky

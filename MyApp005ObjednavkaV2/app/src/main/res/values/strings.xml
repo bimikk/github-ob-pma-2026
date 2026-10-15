@@ -14,4 +14,13 @@
     <string name="extra_bag">Obal na boty (+250 Kč)</string>
     <string name="price_total">Celková cena: %1$s Kč</string>
     <string name="btn_confirm">Pokračovat k rekapitulaci</string>
+
+    <!-- Rekapitulace -->
+    <string name="title_summary">Rekapitulace objednávky</string>
+    <string name="summary_model">Vybraný model: %1$s</string>
+    <string name="summary_extras">Příplatková výbava: %1$s</string>
+    <string name="summary_no_extras">bez příplatkové výbavy</string>
+    <string name="terms_title">Obchodní podmínky</string>
+    <string name="terms_text">1. Objednávka je závazná okamžikem jejího potvrzení zákazníkem.\n\n2. Zboží je skladem do vyprodání zásob. Dodací lhůta je obvykle 3–5 pracovních dnů od potvrzení objednávky.\n\n3. Cena uvedená v rekapitulaci je konečná a zahrnuje DPH. Cena dopravy se řídí zvoleným způsobem doručení.\n\n4. Zákazník má právo odstoupit od smlouvy do 14 dnů od převzetí zboží bez udání důvodu.\n\n5. Vrácené zboží musí být nenošené, nepoškozené a v původním obalu včetně visaček.\n\n6. Peníze za vrácené zboží budou vráceny do 14 dnů od doručení zásilky zpět prodejci, a to stejným způsobem, jakým byly přijaty.\n\n7. Na obuv se vztahuje zákonná záruční doba 24 měsíců. Záruka se nevztahuje na běžné opotřebení podrážky a svršku ani na poškození nevhodným používáním.\n\n8. Reklamaci lze uplatnit e-mailem nebo osobně v prodejně, vždy s dokladem o koupi.\n\n9. Příplatková výbava (barva, tkaničky, obal) se vyrábí na objednávku, proto může prodloužit dodací lhůtu o 2 pracovní dny.\n\n10. Osobní údaje zákazníka jsou zpracovávány pouze za účelem vyřízení objednávky v souladu s GDPR.\n\n11. Prodejce si vyhrazuje právo změnit ceny bez předchozího upozornění; pro již potvrzené objednávky platí původní cena.\n\n12. Tyto obchodní podmínky nabývají účinnosti dnem jejich zveřejnění.</string>
+    <string name="btn_back">Zpět k úpravě</string>
 </resources>
