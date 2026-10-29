@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApp007aFragments</string>
+    <string name="btn_fragment_a">Zobrazit Fragment A</string>
+    <string name="btn_fragment_b">Zobrazit Fragment B</string>
+    <string name="text_fragment_a">Toto je Fragment A</string>
+    <string name="text_fragment_b">Toto je Fragment B</string>
+</resources>
