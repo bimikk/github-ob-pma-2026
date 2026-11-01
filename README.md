@@ -27,3 +27,9 @@ Repozitář s úkoly z předmětu Programování mobilních aplikací – Ondře
   - Rekapitulace (`SummaryActivity`) ve `ScrollView`: data předaná přes `Intent`, obchodní podmínky, tlačítko **Zpět k úpravě**.
   - ViewBinding, bez `findViewById`.
   - **Návazný úkol:** přehled možností trvalého ukládání objednávek v README složky.
+
+## 5. cvičení (22. 10. 2026)
+
+- **Úkol 007:** fragmenty.
+  - [MyApp007aFragments](MyApp007aFragments) – dvě tlačítka přepínají prázdný Fragment A a Fragment B (`FragmentContainerView`, `replace`).
+  - [MyApp007bFragmentsExample1](MyApp007bFragmentsExample1) – vlastní aplikace **Tréninkový deník** se třemi fragmenty (Dnes, Historie, Statistiky) a spodní navigací; data sdílená mezi fragmenty.

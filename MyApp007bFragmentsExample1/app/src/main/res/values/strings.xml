@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tréninkový deník</string>
+
+    <!-- Navigace -->
+    <string name="nav_today">Dnes</string>
+    <string name="nav_history">Historie</string>
+    <string name="nav_stats">Statistiky</string>
+
+    <!-- Druhy tréninku -->
+    <string name="type_run">Běh</string>
+    <string name="type_bike">Kolo</string>
+    <string name="type_swim">Plavání</string>
+    <string name="type_walk">Chůze</string>
+
+    <!-- Fragment Dnes -->
+    <string name="today_title">Zapsat dnešní trénink</string>
+    <string name="today_type">Druh aktivity</string>
+    <string name="hint_distance">Vzdálenost (km)</string>
+    <string name="hint_minutes">Čas (minuty)</string>
+    <string name="hint_note">Poznámka (nepovinná)</string>
+    <string name="btn_save">Uložit trénink</string>
+    <string name="msg_saved">Trénink uložen 💪</string>
+    <string name="err_distance">Zadej vzdálenost větší než 0</string>
+    <string name="err_minutes">Zadej čas větší než 0</string>
+
+    <!-- Fragment Historie -->
+    <string name="history_title">Historie tréninků</string>
+    <string name="history_empty">Zatím žádný trénink. Zapiš první v záložce Dnes.</string>
+    <string name="btn_sample">Načíst ukázkové tréninky</string>
+    <string name="history_item">%1$s · %2$s\n%3$s km · %4$d min · %5$s</string>
+    <string name="pace_km">tempo %1$s min/km</string>
+    <string name="pace_100m">tempo %1$s min/100 m</string>
+    <string name="speed_kmh">rychlost %1$s km/h</string>
+
+    <!-- Fragment Statistiky -->
+    <string name="stats_title">Statistiky</string>
+    <string name="stats_count">Počet tréninků: %1$d</string>
+    <string name="stats_distance">Celková vzdálenost: %1$s km</string>
+    <string name="stats_time">Celkový čas: %1$d h %2$d min</string>
+    <string name="stats_longest">Nejdelší trénink: %1$s km (%2$s)</string>
+    <string name="stats_by_type">Podle druhu</string>
+    <string name="stats_type_row">%1$s: %2$d× · %3$s km</string>
+    <string name="stats_empty">Statistiky se zobrazí po prvním tréninku.</string>
+</resources>
