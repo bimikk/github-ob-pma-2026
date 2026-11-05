@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hráčský profil B</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Hráčský profil</string>
+    <string name="label_nickname">Přezdívka</string>
+    <string name="label_hardcore">Hardcore režim</string>
+    <string name="no_nickname">zatím nenastavena</string>
+    <string name="hardcore_on">zapnutý 🔥</string>
+    <string name="hardcore_off">vypnutý</string>
+    <string name="btn_edit">Upravit profil</string>
+
+    <!-- Nastavení -->
+    <string name="settings_title">Nastavení profilu</string>
+    <string name="hint_nickname">Zadej herní přezdívku</string>
+    <string name="switch_hardcore">Zapnout Hardcore režim</string>
+    <string name="btn_save">Uložit (DataStore)</string>
+    <string name="progress_desc">Indikátor práce</string>
+    <string name="msg_saved">Profil uložen</string>
+    <string name="action_back">Zpět</string>
+
+    <!-- Navazující úkol: interaktivní prvek -->
+    <string name="tap_title">Mezitím otestuj reflexy</string>
+    <string name="tap_hint">Klikej během ukládání – reaguje tlačítko?</string>
+    <string name="btn_tap">Klikni!</string>
+    <string name="tap_count">Kliknutí: %1$d</string>
+    <string name="btn_tap_reset">Vynulovat</string>
+</resources>
