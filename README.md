@@ -33,3 +33,10 @@ Repozitář s úkoly z předmětu Programování mobilních aplikací – Ondře
 - **Úkol 007:** fragmenty.
   - [MyApp007aFragments](MyApp007aFragments) – dvě tlačítka přepínají prázdný Fragment A a Fragment B (`FragmentContainerView`, `replace`).
   - [MyApp007bFragmentsExample1](MyApp007bFragmentsExample1) – vlastní aplikace **Tréninkový deník** se třemi fragmenty (Dnes, Historie, Statistiky) a spodní navigací; data sdílená mezi fragmenty.
+
+## 6. cvičení (5. 11. 2026)
+
+- **Úkol 008:** trvalé ukládání dat – hráčský profil (přezdívka + Hardcore režim) ve dvou verzích:
+  - [MyApp008aSharedPref](MyApp008aSharedPref) – SharedPreferences, `commit()` a `Thread.sleep(3000)` na hlavním vlákně → aplikace během ukládání zamrzne.
+  - [MyApp008bDataStore](MyApp008bDataStore) – Jetpack DataStore, coroutine s `delay(3000)` → UI reaguje, potvrzení přes Snackbar s tlačítkem Zpět.
+  - **Návazný úkol:** počítadlo kliknutí „test reflexů“, na kterém je rozdíl blokujícího a neblokujícího ukládání vidět.
